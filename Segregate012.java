@@ -33,21 +33,4 @@ public class Segregate012 {
             System.out.println(array[i]);
         }
     }
-
-    private static int next(String s){
-        int num = 0;
-        char[] chars = s.toCharArray();
-        char ch;
-        StringBuffer outputString = new StringBuffer();
-        for(int i = 0; i < chars.length; i++){
-            ch = chars[i];
-            switch (ch){
-                case '1':
-                    char nextChar = chars[i+1];
-                    break;
-
-            }
-        }
-        return num;
-    }
 }
