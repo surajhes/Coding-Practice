@@ -36,5 +36,4 @@ public class MaxPossibleSumOfStack {
         }
         return sum;
     }
-
 }
